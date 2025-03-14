@@ -1,6 +1,6 @@
-//your JS code here. If required.
-function sanket(){
-	alert(arguments.callee.name)
+function functionName() {
+    alert(arguments.callee.name);
 }
 
-sanket()
+// Test cases
+functionName(); 
